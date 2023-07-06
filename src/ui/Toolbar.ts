@@ -155,6 +155,7 @@ export class Toolbar {
         const buttonContainer = document.createElement('div');
         buttonContainer.className = `${this.toolbarButtonStyleClass.name}`;
         buttonContainer.setAttribute('data-type-name', mi.typeName);
+        buttonContainer.setAttribute('title', mi.title);
         //  ${
         //   this.uiStyleSettings.toolbarButtonStyleColorsClassName ?
         //   this.uiStyleSettings.toolbarButtonStyleColorsClassName : this.toolbarButtonStyleColorsClass.name}`;
